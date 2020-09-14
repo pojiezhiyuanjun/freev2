@@ -1,0 +1,375 @@
+port: 1050
+socks-port: 1080
+allow-lan: true
+mode: Rule
+log-level: silent
+external-controller: 127.0.0.1:9090
+
+proxies:
+  - {name: Albania 🇦🇱, server: al-tia.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Argentina 🇦🇷, server: ar-bua.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Australia 🇦🇺 1, server: au-per.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Australia 🇦🇺 2, server: au-adl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Australia 🇦🇺 3, server: au-bne.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Australia 🇦🇺 4, server: au-mel.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Australia 🇦🇺 5, server: au-syd.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Austria 🇦🇹, server: at-vie.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Azerbaijan 🇦🇿, server: az-bak.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Belgium 🇧🇪, server: be-bru.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Bosnia and Herzegovina 🇧🇦, server: ba-sjj.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Brazil 🇧🇷, server: br-sao.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Bulgaria 🇧🇬, server: bg-sof.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Canada 🇨🇦 1, server: ca-mon.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Canada 🇨🇦 2, server: ca-tor.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Canada 🇨🇦 3, server: ca-van.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Chile 🇨🇱, server: cl-san.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Colombia 🇨🇴, server: co-bog.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Costa Rica 🇨🇷, server: cr-sjn.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Croatia 🇭🇷, server: hr-zag.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Cyprus 🇨🇾, server: cy-nic.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Czech Republic 🇨🇿, server: cz-prg.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Denmark 🇩🇰, server: dk-cph.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Estonia 🇪🇪, server: ee-tll.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Finland 🇫🇮, server: fi-hel.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: France 🇫🇷 1, server: fr-par.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: France 🇫🇷 2, server: fr-mrs.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: France 🇫🇷 3, server: fr-bod.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Germany 🇩🇪 1, server: de-fra.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Germany 🇩🇪 2, server: de-ber.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Germany 🇩🇪 3, server: de-muc.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Germany 🇩🇪 4, server: de-nue.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Greece 🇬🇷, server: gr-ath.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Hong Kong 🇭🇰, server: hk-hkg.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Hungary 🇭🇺, server: hu-bud.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Iceland 🇮🇸, server: is-rkv.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: India 🇮🇳 1, server: in-idr.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: India 🇮🇳 2, server: in-mum.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: India 🇮🇳 3, server: in-chn.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Indonesia 🇮🇩, server: id-jak.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Ireland 🇮🇪, server: ie-dub.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Israel 🇮🇱, server: il-tlv.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Italy 🇮🇹 1, server: it-mil.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Italy 🇮🇹 2, server: it-rom.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Japan 🇯🇵, server: jp-tok.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Kazakhstan 🇰🇿, server: kz-ura.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Latvia 🇱🇻, server: lv-rig.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Libya 🇱🇾, server: ly-tip.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Luxembourg 🇱🇺, server: lu-ste.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Macedonia 🇲🇰, server: mk-skp.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Malaysia 🇲🇾, server: my-kul.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Moldova 🇲🇩, server: md-chi.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Netherlands 🇳🇱, server: nl-ams.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: New Zealand 🇳🇿, server: nz-akl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Nigeria 🇳🇬, server: ng-lag.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Norway 🇳🇴, server: no-osl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Paraguay 🇵🇾, server: py-asu.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Philippines 🇵🇭, server: ph-mnl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Poland 🇵🇱 1, server: pl-waw.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Poland 🇵🇱 2, server: pl-gdn.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Portugal 🇵🇹 1, server: pt-opo.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Portugal 🇵🇹 2, server: pt-lis.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Portugal 🇵🇹 3, server: pt-lou.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Romania 🇷🇴, server: ro-buc.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Russia 🇷🇺 2, server: ru-mos.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Russia 🇷🇺, server: ru-spt.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Serbia 🇷🇸, server: rs-beg.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Singapore 🇸🇬, server: sg-sng.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Slovakia 🇸🇰, server: sk-bts.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Slovenia 🇸🇮, server: si-lju.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: South Africa 🇿🇦, server: za-jnb.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: South Korea 🇰🇷, server: kr-seo.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Spain 🇪🇸 1, server: es-bcn.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Spain 🇪🇸 2, server: es-vlc.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Spain 🇪🇸 3, server: es-mad.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Sweden 🇸🇪, server: se-sto.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Switzerland 🇨🇭, server: ch-zur.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Taiwan 🇹🇼, server: tw-tai.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Thailand 🇹🇭, server: th-bkk.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Turkey 🇹🇷 1, server: tr-ist.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Turkey 🇹🇷 2, server: tr-bur.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: Ukraine 🇺🇦, server: ua-iev.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United Arab Emirates 🇦🇪, server: ae-dub.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United Kingdom 🇬🇧 1, server: uk-lon.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United Kingdom 🇬🇧 2, server: uk-man.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United Kingdom 🇬🇧 3, server: uk-gla.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 1, server: us-ltm.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 2, server: us-nyc.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 3, server: us-bos.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 4, server: us-buf.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 5, server: us-mnz.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 6, server: us-dtw.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 7, server: us-chi.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 8, server: us-clt.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 9, server: us-atl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 10, server: us-stl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 11, server: us-mia.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 12, server: us-orl.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 13, server: us-tpa.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 14, server: us-kan.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 15, server: us-den.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 16, server: us-dal.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 17, server: us-sea.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 18, server: us-bdn.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 19, server: us-slc.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 20, server: us-hou.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 21, server: us-phx.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 22, server: us-lax.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 23, server: us-sfo.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 24, server: us-las.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: United States 🇺🇸 25, server: us-okc.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+  - {name: United States 🇺🇸 26, server: us-sdf.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH, udp: true}
+  - {name: Vietnam 🇻🇳, server: vn-hcm.wbnet.cf, port: 35331, type: ss, cipher: aes-256-gcm, password: zJCgzMLKkkKcsG7C4mWXv8RH}
+
+proxy-groups:
+  - name: 🔰 Select
+    type: select
+    proxies:
+      - 🔥 Auto(Best ping)
+      - Albania 🇦🇱
+      - Argentina 🇦🇷
+      - Australia 🇦🇺 1
+      - Australia 🇦🇺 2
+      - Australia 🇦🇺 3
+      - Australia 🇦🇺 4
+      - Australia 🇦🇺 5
+      - Austria 🇦🇹
+      - Azerbaijan 🇦🇿
+      - Belgium 🇧🇪
+      - Bosnia and Herzegovina 🇧🇦
+      - Brazil 🇧🇷
+      - Bulgaria 🇧🇬
+      - Canada 🇨🇦 1
+      - Canada 🇨🇦 2
+      - Canada 🇨🇦 3
+      - Chile 🇨🇱
+      - Colombia 🇨🇴
+      - Costa Rica 🇨🇷
+      - Croatia 🇭🇷
+      - Cyprus 🇨🇾
+      - Czech Republic 🇨🇿
+      - Denmark 🇩🇰
+      - Estonia 🇪🇪
+      - Finland 🇫🇮
+      - France 🇫🇷 1
+      - France 🇫🇷 2
+      - France 🇫🇷 3
+      - Germany 🇩🇪 1
+      - Germany 🇩🇪 2
+      - Germany 🇩🇪 3
+      - Germany 🇩🇪 4
+      - Greece 🇬🇷
+      - Hong Kong 🇭🇰
+      - Hungary 🇭🇺
+      - Iceland 🇮🇸
+      - India 🇮🇳 1
+      - India 🇮🇳 2
+      - India 🇮🇳 3
+      - Indonesia 🇮🇩
+      - Ireland 🇮🇪
+      - Israel 🇮🇱
+      - Italy 🇮🇹 1
+      - Italy 🇮🇹 2
+      - Japan 🇯🇵
+      - Kazakhstan 🇰🇿
+      - Latvia 🇱🇻
+      - Libya 🇱🇾
+      - Luxembourg 🇱🇺
+      - Macedonia 🇲🇰
+      - Malaysia 🇲🇾
+      - Moldova 🇲🇩
+      - Netherlands 🇳🇱
+      - New Zealand 🇳🇿
+      - Nigeria 🇳🇬
+      - Norway 🇳🇴
+      - Paraguay 🇵🇾
+      - Philippines 🇵🇭
+      - Poland 🇵🇱 1
+      - Poland 🇵🇱 2
+      - Portugal 🇵🇹 1
+      - Portugal 🇵🇹 2
+      - Portugal 🇵🇹 3
+      - Romania 🇷🇴
+      - Russia 🇷🇺
+      - Russia 🇷🇺 2
+      - Serbia 🇷🇸
+      - Singapore 🇸🇬
+      - Slovakia 🇸🇰
+      - Slovenia 🇸🇮
+      - South Africa 🇿🇦
+      - South Korea 🇰🇷
+      - Spain 🇪🇸 1
+      - Spain 🇪🇸 2
+      - Spain 🇪🇸 3
+      - Sweden 🇸🇪
+      - Switzerland 🇨🇭
+      - Taiwan 🇹🇼
+      - Thailand 🇹🇭
+      - Turkey 🇹🇷 1
+      - Turkey 🇹🇷 2
+      - Ukraine 🇺🇦
+      - United Arab Emirates 🇦🇪
+      - United Kingdom 🇬🇧 1
+      - United Kingdom 🇬🇧 2
+      - United Kingdom 🇬🇧 3
+      - United States 🇺🇸 1
+      - United States 🇺🇸 2
+      - United States 🇺🇸 3
+      - United States 🇺🇸 4
+      - United States 🇺🇸 5
+      - United States 🇺🇸 6
+      - United States 🇺🇸 7
+      - United States 🇺🇸 8
+      - United States 🇺🇸 9
+      - United States 🇺🇸 10
+      - United States 🇺🇸 11
+      - United States 🇺🇸 12
+      - United States 🇺🇸 13
+      - United States 🇺🇸 14
+      - United States 🇺🇸 15
+      - United States 🇺🇸 16
+      - United States 🇺🇸 17
+      - United States 🇺🇸 18
+      - United States 🇺🇸 19
+      - United States 🇺🇸 20
+      - United States 🇺🇸 21
+      - United States 🇺🇸 22
+      - United States 🇺🇸 23
+      - United States 🇺🇸 24
+      - United States 🇺🇸 25
+      - United States 🇺🇸 26
+      - Vietnam 🇻🇳
+
+  - name: 🔥 Auto(Best ping)
+    type: url-test
+    proxies:
+      - Albania 🇦🇱
+      - Argentina 🇦🇷
+      - Australia 🇦🇺 1
+      - Australia 🇦🇺 2
+      - Australia 🇦🇺 3
+      - Australia 🇦🇺 4
+      - Australia 🇦🇺 5
+      - Austria 🇦🇹
+      - Azerbaijan 🇦🇿
+      - Belgium 🇧🇪
+      - Bosnia and Herzegovina 🇧🇦
+      - Brazil 🇧🇷
+      - Bulgaria 🇧🇬
+      - Canada 🇨🇦 1
+      - Canada 🇨🇦 2
+      - Canada 🇨🇦 3
+      - Chile 🇨🇱
+      - Colombia 🇨🇴
+      - Costa Rica 🇨🇷
+      - Croatia 🇭🇷
+      - Cyprus 🇨🇾
+      - Czech Republic 🇨🇿
+      - Denmark 🇩🇰
+      - Estonia 🇪🇪
+      - Finland 🇫🇮
+      - France 🇫🇷 1
+      - France 🇫🇷 2
+      - France 🇫🇷 3
+      - Germany 🇩🇪 1
+      - Germany 🇩🇪 2
+      - Germany 🇩🇪 3
+      - Germany 🇩🇪 4
+      - Greece 🇬🇷
+      - Hong Kong 🇭🇰
+      - Hungary 🇭🇺
+      - Iceland 🇮🇸
+      - India 🇮🇳 1
+      - India 🇮🇳 2
+      - India 🇮🇳 3
+      - Indonesia 🇮🇩
+      - Ireland 🇮🇪
+      - Israel 🇮🇱
+      - Italy 🇮🇹 1
+      - Italy 🇮🇹 2
+      - Japan 🇯🇵
+      - Kazakhstan 🇰🇿
+      - Latvia 🇱🇻
+      - Libya 🇱🇾
+      - Luxembourg 🇱🇺
+      - Macedonia 🇲🇰
+      - Malaysia 🇲🇾
+      - Moldova 🇲🇩
+      - Netherlands 🇳🇱
+      - New Zealand 🇳🇿
+      - Nigeria 🇳🇬
+      - Norway 🇳🇴
+      - Paraguay 🇵🇾
+      - Philippines 🇵🇭
+      - Poland 🇵🇱 1
+      - Poland 🇵🇱 2
+      - Portugal 🇵🇹 1
+      - Portugal 🇵🇹 2
+      - Portugal 🇵🇹 3
+      - Romania 🇷🇴
+      - Russia 🇷🇺
+      - Russia 🇷🇺 2
+      - Serbia 🇷🇸
+      - Singapore 🇸🇬
+      - Slovakia 🇸🇰
+      - Slovenia 🇸🇮
+      - South Africa 🇿🇦
+      - South Korea 🇰🇷
+      - Spain 🇪🇸 1
+      - Spain 🇪🇸 2
+      - Spain 🇪🇸 3
+      - Sweden 🇸🇪
+      - Switzerland 🇨🇭
+      - Taiwan 🇹🇼
+      - Thailand 🇹🇭
+      - Turkey 🇹🇷 1
+      - Turkey 🇹🇷 2
+      - Ukraine 🇺🇦
+      - United Arab Emirates 🇦🇪
+      - United Kingdom 🇬🇧 1
+      - United Kingdom 🇬🇧 2
+      - United Kingdom 🇬🇧 3
+      - United States 🇺🇸 1
+      - United States 🇺🇸 2
+      - United States 🇺🇸 3
+      - United States 🇺🇸 4
+      - United States 🇺🇸 5
+      - United States 🇺🇸 6
+      - United States 🇺🇸 7
+      - United States 🇺🇸 8
+      - United States 🇺🇸 9
+      - United States 🇺🇸 10
+      - United States 🇺🇸 11
+      - United States 🇺🇸 12
+      - United States 🇺🇸 13
+      - United States 🇺🇸 14
+      - United States 🇺🇸 15
+      - United States 🇺🇸 16
+      - United States 🇺🇸 17
+      - United States 🇺🇸 18
+      - United States 🇺🇸 19
+      - United States 🇺🇸 20
+      - United States 🇺🇸 21
+      - United States 🇺🇸 22
+      - United States 🇺🇸 23
+      - United States 🇺🇸 24
+      - United States 🇺🇸 25
+      - United States 🇺🇸 26
+      - Vietnam 🇻🇳
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+
+rules:
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  - GEOIP,IR,DIRECT
+  - MATCH,,🔰 Select,dns-failed
